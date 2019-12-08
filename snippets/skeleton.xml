@@ -5,7 +5,7 @@
            fetch="https://github.com"
            revision="master" />
 
-  <project path="build/make" name="ExoSkeleton-Mayhem/build" groups="pdk" remote="master" >
+  <project path="build/make" name="ExoSkeleton-Mayhem/build" groups="pdk" remote="origin" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
     <linkfile src="buildspec.mk.default" dest="build/buildspec.mk.default" />
@@ -14,7 +14,7 @@
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
   </project>
-  <project path="vendor/aquarios" name="ExoSkeleton-Mayhem/vendor_aquarios" remote="master" />
-  <project path="vendor/extras" name="ExoSkeleton-Mayhem/vendor_extras" remote="master" />
+  <project path="vendor/aquarios" name="ExoSkeleton-Mayhem/vendor_aquarios" remote="origin" />
+  <project path="vendor/extras" name="ExoSkeleton-Mayhem/vendor_extras" remote="origin" />
   <project path="prebuilts/clang/host/linux-x86" name="DirtyUnicorns/android_prebuilts_clang_host_linux-x86" remote="gitlab" revision="p9x" />
 </manifest>
