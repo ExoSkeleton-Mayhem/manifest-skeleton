@@ -4,7 +4,7 @@
   <remote  name="origin"
            fetch="https://github.com"
            revision="master" />
-
+  <project path="android/manifest" name="ExoSkeleton-Mayhem/manifest-skeleton" remote="origin" />
   <project path="build/make" name="ExoSkeleton-Mayhem/build" groups="pdk" remote="origin" >
     <copyfile src="core/root.mk" dest="Makefile" />
     <linkfile src="CleanSpec.mk" dest="build/CleanSpec.mk" />
