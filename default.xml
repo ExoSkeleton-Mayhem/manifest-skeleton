@@ -16,7 +16,7 @@
            sync-j="4" />
 
  
-  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" />
+  <project path="build/blueprint" name="platform/build/blueprint" groups="pdk,tradefed" >
   <project path="build/kati" name="platform/build/kati" groups="pdk,tradefed"  />
   </project>
   <project path="art" name="platform/art" groups="pdk" remote="aosp" />
