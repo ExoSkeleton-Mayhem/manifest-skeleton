@@ -13,7 +13,8 @@
     <linkfile src="envsetup.sh" dest="build/envsetup.sh" />
     <linkfile src="target" dest="build/target" />
     <linkfile src="tools" dest="build/tools" />
-  </project>
+  </project> 
+  <project path="build/soong" name="ExoSkeleton-Mayhem/build_soong" remote="origin" />
   <project path="device/google/skeleton_marlin" name="ExoSkeleton-Mayhem/skeleton-marlin" groups="device,marlin,pdk"    remote="origin" />  
   <project path="vendor/aquarios" name="ExoSkeleton-Mayhem/vendor_aquarios" remote="origin" />
   <project path="vendor/extras" name="ExoSkeleton-Mayhem/vendor_extras" remote="origin" />
